@@ -1,0 +1,2 @@
+# garthwind's S60-X RGB config
+This is a copy of the S60-X RGB generic config from kbdfirmware.com that includes my default basic layout. Wasn't exactly sure how to get around the issues I was having doing the usual fussing with header files and keymap files, so this is my solution for the time being. I assume the solution is in setting up wiring and such, but, man, what the hell, haven't had to do that before, and I'm lazy.
