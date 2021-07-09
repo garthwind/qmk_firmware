@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
     G_ESC,   KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT ,
-    BACKLIT, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   SPC_LYR, KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+    SPC_LYR, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 ),
 
 /* Lower
@@ -112,7 +112,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_SPACEL] = LAYOUT_planck_grid(
     _______, _______, SPEC_TH, _______, _______, KC_VOLU, _______, KC_INS,  _______, _______, _______, _______,
-    MACLOCK, SPEC_LH, SPEC_BH, SPEC_RH, SPEC_FS, KC_VOLD, _______, _______, _______, _______, _______, _______,
+    MACLOCK, SPEC_LH, SPEC_BH, SPEC_RH, SPEC_FS, KC_VOLD, KC_END,  KC_PGDN, KC_PGUP, KC_HOME, _______, _______,
     _______, _______, _______, _______, _______, KC_MUTE, _______, _______, _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
 ),
